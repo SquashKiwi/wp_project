@@ -1,0 +1,17 @@
+
+
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+ }
+ 
+ .top-left, .top-right, .bottom-left, .bottom-right {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+ }
+ 
