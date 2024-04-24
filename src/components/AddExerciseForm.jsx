@@ -31,6 +31,10 @@ const AddExerciseForm = ({ onAddExercise }) => {
           <option value="Running">Running</option>
           <option value="Walking">Walking</option>
           <option value="Swimming">Swimming</option>
+          <option value="Gym">Gym</option>
+          <option value="Others">Others</option>
+
+
         </select>
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
