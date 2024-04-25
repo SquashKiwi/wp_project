@@ -33,7 +33,7 @@ const App = () => {
 
  return (
     <div className="App">
-      <h1 style={{fontSize: "40px"}}>Fittrack</h1>
+      <h1 style={{fontSize: "40px"}}>Fitrack</h1>
       <div style={{ display: 'flex', flexDirection: 'row', height: '60vh' }}>
         <div style={{ flex: 3 }}>
           <AddExerciseForm onAddExercise={handleAddExercise} />
